@@ -270,3 +270,30 @@ nav .container {
   color: var(--light-one);
   background-color: var(--secondary-color);
 }
+/*HEADER*/
+.header-content .container.grid-2 {
+  grid-template-columns: 2.5fr 3.5fr;
+  min-height: calc(100vh - 6rem);
+  padding-bottom: 0;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.header-title {
+  font-size: 3.8rem;
+  line-height: 0.8;
+  color: var(--dark-one);
+}
+
+.header-title span {
+  color: var(--main-color);
+}
+
+.header-content .text {
+  margin: 2.15rem 0;
+
+}
+
+.header-content .image .img-element {
+  max-width: 600px;
+}
